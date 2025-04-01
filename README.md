@@ -1,4 +1,4 @@
-# CustomTranslator
+# CustomTranslator 
 
 CustomTranslator is a simple Bash script that allows you to translate selected text from English to Spanish in your Linux desktop environment. By integrating with system utilities, it captures the selected text, translates it, and displays the translation in a desktop notification.
 
