@@ -75,3 +75,15 @@ Create a custom shortcut pointing to /home/your_user/.local/bin/translator.sh.
 Assign a key combination you prefer.
 
 When executed, the script retrieves the currently selected text (Wayland primary selection first, clipboard as fallback), translates it to Spanish, and displays the result as a desktop notification.
+
+## Troubleshooting
+
+No notification appears: Ensure libnotify-bin (Debian) or libnotify (Arch) is installed and that desktop notifications are enabled.
+
+Translation doesn’t trigger: Confirm that wl-paste works in your environment and that you have selected text.
+
+Script not appearing in the application menu: Verify that the .desktop file is located in ~/.local/share/applications/ and that its Exec field correctly references ~/.local/bin/translator.sh.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
